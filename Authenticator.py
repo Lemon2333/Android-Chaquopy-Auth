@@ -1,4 +1,3 @@
-```
 import socket
 import uuid
 import ipaddress
@@ -84,4 +83,3 @@ def is_authorized_user():
     except Exception as e:
         print(f"數據庫操作失敗: {e}")
         return False
-```
